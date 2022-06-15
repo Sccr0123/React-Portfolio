@@ -1,0 +1,24 @@
+.intro {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+}
+
+.intro ul,
+.projects ul,
+.contact ul {
+	width: 80%;
+}
+
+.intro img {
+	position: absolute;
+	right: 0;
+	margin: 4vh 1vw;
+	height: 35vh;
+	width: 15vw;
+}
+
+.column25 {
+	float: left;
+	width: 25%;
+}

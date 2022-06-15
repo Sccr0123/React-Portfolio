@@ -1,0 +1,42 @@
+header {
+	padding: 20px 0;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	top: 0;
+}
+
+header h1 {
+	background-color: var(--primary-color);
+	padding: 10px 40px;
+	border-radius: 0 20px 20px 0;
+	font-size: 50px;
+	color: black;
+}
+
+header nav {
+	align-items: center;
+}
+
+header nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	list-style: none;
+	justify-content: space-between;
+}
+
+header nav ul li {
+	padding: 20px;
+	font-size: 30px;
+	color: var(--primary-color);
+}
+
+/* Apply Different Styles When The User Hovers Over */
+header nav ul li:hover {
+	background-color: var(--primary-color);
+	color: black;
+	border-radius: 15px;
+	text-shadow: none;
+}
