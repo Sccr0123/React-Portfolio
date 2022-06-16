@@ -2,15 +2,15 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	
 }
 
-.intro ul {
+.body {
 	width: 80%;
 }
 
 .intro img {
-	/* position: absolute;
-	right: 0; */
+
 	margin: 4vh 1vw;
 	height: 40vh;
 	width: 20vw;

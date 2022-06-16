@@ -6,7 +6,7 @@ import Headshot from "../../assets/images/Zach Thomas Headshot.jpg";
 function About() {
 	return (
 		<section className="intro m-3">
-			<div className="pt-3">
+			<div className="body pt-3">
 				<h2>Introduction:</h2>
 				<p>
 					My name is Zach Thomas, and I am currently enrolled in the
