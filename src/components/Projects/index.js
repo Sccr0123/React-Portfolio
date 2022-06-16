@@ -15,23 +15,27 @@ function Projects() {
 	return (
 		<section id="my-work">
 			<h2 className="section-title">Projects</h2>
-			<ul>
+			<ul className="d-flex flex-wrap justify-content-center">
 				{repos.map((repo, id) => (
-					<div className="column50" key={id}>
-						<div className="project">
-							<img
-								src={`https://raw.githubusercontent.com/Sccr0123/${repo.name}/main/preview/screenshot.png`}
-								alt={`${repo.name} Preview`}
-							/>
+					<a href={repo.html_url}>
+						<div
+							className="column50 m-3 border border-dark"
+							key={id}
+						>
+							<div className="project">
+								<img
+									className="border-bottom border-dark"
+									src={`https://raw.githubusercontent.com/Sccr0123/${repo.name}/main/preview/screenshot.jpg`}
+									alt={`${repo.name} Preview`}
+								/>
 
-							<div className="project-name">
-								<a href={repo.html_url}>
+								<div className="project-name">
 									<h4>{repo.name}</h4>
-								</a>
-								<p>{repo.description}</p>
+									<p>{repo.description}</p>
+								</div>
 							</div>
 						</div>
-					</div>
+					</a>
 				))}
 			</ul>
 		</section>
