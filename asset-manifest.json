@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.0f0a1b85.css",
-    "main.js": "/React-Portfolio/static/js/main.35a5efb5.js",
+    "main.css": "/React-Portfolio/static/css/main.f3018877.css",
+    "main.js": "/React-Portfolio/static/js/main.d9fce8c9.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/Zach Thomas Headshot.jpg": "/React-Portfolio/static/media/Zach Thomas Headshot.cf3677283acda4a8782a.jpg",
     "static/media/Zachary-Thomas-Resume.pdf": "/React-Portfolio/static/media/Zachary-Thomas-Resume.c815cdc0e80b5da56798.pdf",
     "index.html": "/React-Portfolio/index.html",
-    "main.0f0a1b85.css.map": "/React-Portfolio/static/css/main.0f0a1b85.css.map",
-    "main.35a5efb5.js.map": "/React-Portfolio/static/js/main.35a5efb5.js.map",
+    "main.f3018877.css.map": "/React-Portfolio/static/css/main.f3018877.css.map",
+    "main.d9fce8c9.js.map": "/React-Portfolio/static/js/main.d9fce8c9.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f0a1b85.css",
-    "static/js/main.35a5efb5.js"
+    "static/css/main.f3018877.css",
+    "static/js/main.d9fce8c9.js"
   ]
 }
