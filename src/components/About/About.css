@@ -1,21 +1,19 @@
 .intro {
 	display: flex;
 	flex-wrap: wrap;
-    justify-content: center;
+	justify-content: center;
 }
 
-.intro ul,
-.projects ul,
-.contact ul {
+.intro ul {
 	width: 80%;
 }
 
 .intro img {
-	position: absolute;
-	right: 0;
+	/* position: absolute;
+	right: 0; */
 	margin: 4vh 1vw;
-	height: 35vh;
-	width: 15vw;
+	height: 40vh;
+	width: 20vw;
 }
 
 .column25 {

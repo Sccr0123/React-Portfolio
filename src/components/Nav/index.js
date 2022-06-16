@@ -12,7 +12,6 @@ function Nav({ categories, setCurrentCategory, currentCategory }) {
 							key={id}
 							onClick={() => {
 								setCurrentCategory(category.name);
-								console.log(category.name);
 							}}
 						>
 							{category.name}

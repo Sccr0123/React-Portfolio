@@ -2,10 +2,14 @@ import React, { useState } from "react";
 //Styling
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-//Compnonents
+
+//Components
 import Nav from "./components/Nav";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Resume from "./components/Resume";
+import Contact from "./components/Contact";
+
 
 function App() {
 	const [categories] = useState([
@@ -22,12 +26,10 @@ function App() {
 				setCurrentCategory={setCurrentCategory}
 				currentCategory={currentCategory}
 			/>
-			{currentCategory === "About" && (
-				<About currentCategory={currentCategory} />
-			)}
-			{currentCategory === "Projects" && (
-				<Projects currentCategory={currentCategory} />
-			)}
+			{currentCategory === "About" && <About />}
+			{currentCategory === "Projects" && <Projects />}
+			{currentCategory === "Resume" && <Resume />}
+			{currentCategory === "Contact" && <Contact />}
 		</div>
 	);
 }

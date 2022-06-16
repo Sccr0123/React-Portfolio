@@ -1,0 +1,25 @@
+.section-title {
+	margin: 5vh;
+	font-size: 50px;
+}
+
+.projects ul {
+	width: 100%;
+}
+
+.project-name {
+	color: black;
+	margin: 0 0 0 -5px;
+	padding: 0 10px;
+	padding-bottom: 10px;
+}
+
+.project-name h4 {
+	font-size: 25px;
+	margin: 10px;
+}
+
+.project-name p {
+	font-size: 20px;
+	margin: 10px;
+}
