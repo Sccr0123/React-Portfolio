@@ -24,4 +24,10 @@
 		float: left;
 		width: 33%;
 	}
+
+	.intro img {
+		margin: 4vh;
+		height: 80vh;
+		width: 80vw;
+	}
 }
