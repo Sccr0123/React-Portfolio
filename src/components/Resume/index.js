@@ -20,7 +20,7 @@ function Resume() {
 				onLoadSuccess={onDocumentLoadSuccess}
 				onLoadError={console.error}
 			>
-				<Page pageNumber={1}/>
+				<Page pageNumber={1} />
 				<Page pageNumber={2} />
 			</Document>
 		</div>

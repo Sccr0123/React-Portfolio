@@ -12,14 +12,19 @@ function Projects() {
 
 	if (!repos) return <div>Loading...</div>;
 
+	console.log(repos);
+
 	return (
 		<section id="my-work">
 			<h2 className="section-title">Projects</h2>
-			<p></p>
 			<ul>
 				{repos.map((repo, id) => (
 					<div className="column50" key={id}>
 						<div className="secondary-project-left">
+							<img
+								src={`${repo.html_url}/tree/main/preview/screenshot.png`}
+								alt={`${repo.name} Preview`}
+							/>
 							<div className="project-name">
 								<a href={repo.html_url}>
 									<h4>{repo.name}</h4>
