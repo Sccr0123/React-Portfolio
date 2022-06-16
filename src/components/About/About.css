@@ -2,7 +2,6 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	
 }
 
 .body {
@@ -10,7 +9,6 @@
 }
 
 .intro img {
-
 	margin: 4vh 1vw;
 	height: 40vh;
 	width: 20vw;
@@ -19,4 +17,11 @@
 .column25 {
 	float: left;
 	width: 25%;
+}
+
+@media screen and (max-width: 980px) {
+	.column25 {
+		float: left;
+		width: 33%;
+	}
 }
