@@ -25,6 +25,9 @@ function Projects() {
 								src={`${repo.html_url}/tree/main/preview/screenshot.png`}
 								alt={`${repo.name} Preview`}
 							/>
+							{console.log(
+								`${repo.html_url}/tree/main/preview/screenshot.png`
+							)}
 							<div className="project-name">
 								<a href={repo.html_url}>
 									<h4>{repo.name}</h4>
