@@ -4,7 +4,7 @@
 	font-size: 50px;
 }
 
-.projects ul {
+.project ul {
 	width: 100%;
 }
 
@@ -23,4 +23,9 @@
 .project-name p {
 	font-size: 20px;
 	margin: 10px;
+}
+
+.project img {
+	width: 25vw;
+	height: 25vh;
 }
