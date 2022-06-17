@@ -16,10 +16,7 @@ function Resume() {
 	return (
 		<div>
 			<a href={resume} download>
-				<button
-					target="_blank"
-					className="mt-2"
-				>
+				<button target="_blank" className="mt-2">
 					Download Resume
 				</button>
 			</a>
