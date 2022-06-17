@@ -42,7 +42,7 @@ function Contact() {
 
 	return (
 		<section className="d-flex align-items-center flex-column">
-			<h1 data-testid="h1tag">Contact me</h1>
+			<h2 class="section-title">Contact Me</h2>
 			<form
 				id="contact-form"
 				className="login-form d-flex flex-column border border-dark m-3 p-3"
@@ -87,6 +87,18 @@ function Contact() {
 					Submit
 				</button>
 			</form>
+			<div id="contact-me" class="contact">
+				<ul>
+					<div class="section-para">
+						<p>Phone Number: (586) 243-4967</p>
+						<p>Email: sccr0123@gmail.com</p>
+						<p>
+							GitHub:{" "}
+							<a href="https://github.com/Sccr0123">Sccr0123</a>
+						</p>
+					</div>
+				</ul>
+			</div>
 		</section>
 	);
 }
