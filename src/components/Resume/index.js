@@ -15,6 +15,15 @@ function Resume() {
 
 	return (
 		<div>
+			<a href={file} download>
+				<button
+					target="_blank"
+					className="mt-2"
+				>
+					Download Resume
+				</button>
+			</a>
+
 			<Document
 				file={file}
 				onLoadSuccess={onDocumentLoadSuccess}
