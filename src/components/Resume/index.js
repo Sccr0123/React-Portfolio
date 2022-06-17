@@ -22,6 +22,7 @@ function Resume() {
 			>
 				<Page pageNumber={1} />
 				<Page pageNumber={2} />
+				<Page pageNumber={3} />
 			</Document>
 		</div>
 	);
