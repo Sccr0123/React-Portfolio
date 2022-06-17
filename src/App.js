@@ -10,13 +10,12 @@ import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
 
-
 function App() {
 	const [categories] = useState([
 		{ name: "About", description: "Introduction and Links To Sites" },
 		{ name: "Projects", description: "My Starred Projects On GitHub" },
-		{ name: "Resume", description: "My Updated Resume" },
 		{ name: "Contact", description: "Differnet Ways To Reach Out To Me" },
+		{ name: "Resume", description: "My Updated Resume" },
 	]);
 	const [currentCategory, setCurrentCategory] = useState("About");
 	return (
@@ -28,8 +27,8 @@ function App() {
 			/>
 			{currentCategory === "About" && <About />}
 			{currentCategory === "Projects" && <Projects />}
-			{currentCategory === "Resume" && <Resume />}
 			{currentCategory === "Contact" && <Contact />}
+			{currentCategory === "Resume" && <Resume />}
 		</div>
 	);
 }
