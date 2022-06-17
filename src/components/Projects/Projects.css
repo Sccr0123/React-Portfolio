@@ -36,3 +36,10 @@ a:visited {
 	width: 40vw;
 	height: 40vh;
 }
+
+@media screen and (max-width: 980px) {
+	.project img {
+		width: 90vw;
+		height: 40vh;
+	}
+}
