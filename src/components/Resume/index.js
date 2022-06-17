@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import file from "../../assets/pdf/Zachary-Thomas.pdf";
+import resume from "../../assets/pdf/Zachary-Thomas.pdf";
 import "./Resume.css";
 import { Document, Page } from "react-pdf";
 import { pdfjs } from "react-pdf";
@@ -15,7 +15,7 @@ function Resume() {
 
 	return (
 		<div>
-			<a href={file} download>
+			<a href={resume} download>
 				<button
 					target="_blank"
 					className="mt-2"
@@ -25,7 +25,7 @@ function Resume() {
 			</a>
 
 			<Document
-				file={file}
+				file={resume}
 				onLoadSuccess={onDocumentLoadSuccess}
 				onLoadError={console.error}
 			>
