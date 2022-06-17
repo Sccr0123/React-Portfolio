@@ -1,0 +1,16 @@
+section {
+	justify-content: center;
+
+	width: 100%;
+	min-height: 5vh;
+}
+
+section div {
+	justify-content: space-between;
+}
+
+section div a {
+	/* height: 20vh;
+	width: 20vh; */
+	margin: 2vh;
+}
