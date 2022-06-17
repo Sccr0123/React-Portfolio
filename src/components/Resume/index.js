@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import file from "../../assets/pdf/Zachary-Thomas-Resume.pdf";
+import file from "../../assets/pdf/Zachary-Thomas.pdf";
 import "./Resume.css";
 import { Document, Page } from "react-pdf";
 import { pdfjs } from "react-pdf";
