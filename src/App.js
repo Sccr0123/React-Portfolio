@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 
 function App() {
 	useEffect(() => {
-		document.title = "Zachary's Portfolio";
+		document.title = "Zach Thomas's Portfolio";
 	}, []);
 	const [categories] = useState([
 		{ name: "About", description: "Introduction and Links To Sites" },
