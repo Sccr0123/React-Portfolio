@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 //Styling
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -11,8 +11,10 @@ import Contact from "./components/Contact";
 import Resume from "./components/Resume";
 import Footer from "./components/Footer";
 
-
 function App() {
+	useEffect(() => {
+		document.title = "Zachary's Portfolio";
+	}, []);
 	const [categories] = useState([
 		{ name: "About", description: "Introduction and Links To Sites" },
 		{ name: "Projects", description: "My Starred Projects On GitHub" },
