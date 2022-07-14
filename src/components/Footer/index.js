@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { BsGithub, BsLinkedin, BsInstagram } from "react-icons/bs";
+import { BsGithub, BsLinkedin, MdEmail } from "react-icons/bs";
 
 function Footer() {
 	return (
@@ -12,8 +12,8 @@ function Footer() {
 				<a href="https://www.linkedin.com/in/zachary-thomas-038a4581/">
 					<BsLinkedin />
 				</a>
-				<a href="https://www.instagram.com/zacht0123/">
-					<BsInstagram />
+				<a href="mailto:sccr0123@gmail.com">
+					<MdEmail />
 				</a>
 			</div>
 		</section>
