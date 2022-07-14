@@ -3,7 +3,7 @@ import "./Footer.css";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 
-function Footer() {giu
+function Footer() {
 	return (
 		<section>
 			<div>
